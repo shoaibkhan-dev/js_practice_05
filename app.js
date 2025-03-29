@@ -46,7 +46,10 @@ let person = {
 
     myArr.unshift(9);
     console.log(myArr)
-    
+
+    myArr.slice(1, 3);
+    console.log(myArr)
+
     console.log(myArr.includes(8));
     console.log(myArr.indexOf(4));
     console.log(myArr.length)
