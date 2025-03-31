@@ -100,11 +100,24 @@
 //     }
 // }
 
-for (let index = 1; index <= 20; index++){
-    console.log(index);
-    if (index == 8){
-        console.log("number 8 is detected");
-        continue
+// for (let index = 1; index <= 20; index++){
+//     console.log(index);
+//     if (index == 8){
+//         console.log("number 8 is detected");
+//         continue
+//     }
+// }
+
+
+
+
+
+
+
+for (i = 1; i <= 10; i++){
+    console.log(`outer loop: ${i}`);
+    for (j = 1; j <= 10; j++){
+        console.log(i + '  *  ' + j + '  =  ' + i      *      j);
     }
 }
 
