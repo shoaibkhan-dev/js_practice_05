@@ -54,35 +54,43 @@
 //     console.log(myArr.indexOf(4));
 //     console.log(myArr.length)
 
-const name = prompt("enter your name");
-const age = prompt("enter your age");
-const mathsMarks = +prompt("enter your maths marks");
-const urduMarks = +prompt("enter your maths urdu");
-const englishMarks = +prompt("enter your maths english");
+// const name = prompt("enter your name");
+// const age = prompt("enter your age");
+// const mathsMarks = +prompt("enter your maths marks");
+// const urduMarks = +prompt("enter your maths urdu");
+// const englishMarks = +prompt("enter your maths english");
 
 
 
-const totalMarks = 300;
-alert(totalMarks);
-const obtainedMarks = mathsMarks + englishMarks + urduMarks;
-alert(obtainedMarks);
-const percentage = obtainedMarks * 100 / totalMarks;
-alert(percentage);
+// const totalMarks = 300;
+// alert(totalMarks);
+// const obtainedMarks = mathsMarks + englishMarks + urduMarks;
+// alert(obtainedMarks);
+// const percentage = obtainedMarks * 100 / totalMarks;
+// alert(percentage);
 
 
-if (percentage >= 90 && percentage <= 100){
-    alert("A+ Grade");
-    if (percentage >= 90){
-        alert("Reward him 10k")
+// if (percentage >= 90 && percentage <= 100){
+//     alert("A+ Grade");
+//     if (percentage >= 90){
+//         alert("Reward him 10k")
+//     }
+// } else if (percentage >= 80 && percentage <= 89){
+//     alert("A Grade");
+// } else if (percentage >= 60 && percentage <= 79){
+//     alert("B grade");
+// } else if (percentage >= 50 && percentage <= 69){
+//     alert("C grade");
+// } else if (percentage <50){
+//     alert("FAiled");
+// }
+
+for (let i = 0; i <= 10; i++){
+    const element = i;
+    if (element == 6){
+        console.log("6 is best number");
     }
-} else if (percentage >= 80 && percentage <= 89){
-    alert("A Grade");
-} else if (percentage >= 60 && percentage <= 79){
-    alert("B grade");
-} else if (percentage >= 50 && percentage <= 69){
-    alert("C grade");
-} else if (percentage <50){
-    alert("FAiled");
+    console.log(element)
 }
     
 
