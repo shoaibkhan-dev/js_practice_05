@@ -85,14 +85,30 @@
 //     alert("FAiled");
 // }
 
-for (let i = 0; i <= 10; i++){
-    const element = i;
-    if (element == 6){
-        console.log("6 is best number");
+// for (let i = 0; i <= 10; i++){
+//     const element = i;
+//     if (element == 6){
+//         console.log("6 is best number");
+//     }
+//     console.log(element)
+// }
+
+// for (let i = 1; i <= 100; i++){
+//     console.log(`outer loop : ${i}`);
+//     for (let j = 1; j <= 10; j++){
+//        console.log(i + ' * ' + j + ' = ' + i*j);
+//     }
+// }
+
+for (let index = 1; index <= 20; index++){
+    console.log(index);
+    if (index == 8){
+        console.log("number 8 is detected");
+        continue
     }
-    console.log(element)
 }
-    
+
+
 
 
 
